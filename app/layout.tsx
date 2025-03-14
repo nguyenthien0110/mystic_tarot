@@ -21,6 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link
+          href="https://fonts.cdnfonts.com/css/westminstergotisch"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`${almendra.variable} antialiased`}>{children}</body>
     </html>
   );

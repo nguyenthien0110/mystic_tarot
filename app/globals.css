@@ -22,5 +22,12 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+.almendra {
   font-family: 'Almendra', serif;
+}
+
+.westminster {
+  font-family: 'westminstergotisch', sans-serif;
 }
